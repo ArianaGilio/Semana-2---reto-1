@@ -1,0 +1,48 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+    .form-container h3{
+      text-transform: uppercase;
+      margin: 20px 0px 0px 0px;
+    }
+    .form-container h4{
+      color: #a3a3a3;
+      margin: 20px 0px 20px 0px;
+    }
+  
+  #create_account{
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+    #create_account input{
+      padding: 15px 15px;
+      border: 1px solid #DCDCDC;
+      border-radius: 2px;
+      outline: none;
+    }
+    #create_account input::placeholder{
+      color: #a3a3a3;
+    }
+  
+    #create_account button{
+      display: flex;
+      width: fit-content;
+      padding: 10px 30px;
+      border: none;
+      color: #FFFFFF;
+      background-color: rgb(76, 211, 76);
+    }
+  
+  .button_container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;;
+  }
